@@ -6,3 +6,5 @@ def home(request):
     return render(request, 'portfolio/home.html')
 def new(request):
     return render(request, 'portfolio/new.html')
+def youtube(request):
+    return render(request, 'portfolio/youtube.html')

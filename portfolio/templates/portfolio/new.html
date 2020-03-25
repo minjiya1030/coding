@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,11 +18,32 @@
 
             </nav>
             <section>
-                <h1>NEW 메인부분입니다.</h1>
-               
+                <h1>NEW 메인부분입니다.</h1> <!--제목-->
+                <p>내용입니다<br> <!--여기만 강조--><span style="color: crimson;">!!!하이라이뚜우웅!!</span> 홀라라라라ㅏㄹ
+                <em>이것은 이탤릭체입니다.</em><br>
+                <strong>이것은 볼드체입니다.</strong></p>
+                <ol> <!--순서있는 리스트-->
+                    <li>todo1</li>
+                    <li>todo2</li>
+                    <li>todo3</li>
+                </ol>
+
+                <ul> <!--순서없는 리스트-->
+                    <li>todo1</li>
+                    <li>todo2</li>
+                    <li>todo3</li>
+                </ul>
+
+                <a href="{% url 'home' %}"><img style="width:300px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS_bhpgoku8ky1mVjj59az3VuQ0aNWAgKC-51-nzgxKmSh-09eB"></a>
+
+                <!--링크있/없는 이미지 넣기-->
+                
+                <br><img style="width:300px;" src="{% static '짱벚꽃.jpg' %}"><br>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/IquLSZDz-hQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </section>
 
             <aside>
+                <p>사이드바입니다.</p>
 
             </aside>
             
