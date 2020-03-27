@@ -20,8 +20,8 @@ section{
     margin: 10px auto;
     color: darksalmon;
     height: 500px;
-    justify-content:space-between;
-    align-items: flex-end;
+    justify-content:space-between; /*가로 위치 정렬*/
+    align-items: flex-end; /*세로위치 정렬*/
 }
 nav{
     background-color: palevioletred;

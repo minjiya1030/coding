@@ -1,0 +1,46 @@
+*{
+    
+    box-sizing: content-box;
+    
+   }
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    box-sizing: content-box;
+
+}
+video{
+    box-sizing: border-box;
+    justify-content:space-between;
+}
+section{
+    display:flex;
+    box-sizing: border-box;
+    
+}
+#adv{
+    justify-content:space-between;
+}
+#menu{
+    box-sizing: content-box;
+
+    justify-content: flex-start;
+    margin-left: 0px;
+    
+    }
+li{
+    height: 35px;
+    font-size: 17px;
+}
+#home1{
+    background-color: lightgray;
+}
+
+#search{
+    width: 700px;
+}
+article{
+    justify-content: space-evenly;
+    background-color: #d2d6db;
+}

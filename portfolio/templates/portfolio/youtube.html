@@ -2,19 +2,82 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'portfolio/css/youtube.css' %}">
     </head>
 
     <body>
-        <header id="hh">
-            
+        <header>
+            <div>
+                <a href="youtube.com"><img style="width:250px; height:70px;" src="{% static '좌상.PNG' %}"></a></div>
+            <div id="search"><form action="search.php" method="post" style="width: 800px; height: 50px; margin-top: 20px;">
+                <input type="text" title="검색">
+                <input type="submit" value="검색">
+            </form></div>
+            <div><img style="width:200px; height:50px;" src="{% static '우상마페.PNG' %}"></div>
+           
         </header>
         <section>
            <nav>
-               
-           </nav>
-           <article>
+            <div id="menu">
+                <ul style="width: 250px; list-style: none; "> <!--순서없는 리스트-->
+                    <li id="home1">홈</li>
+                    <li>인기</li>
+                    <li>구독</li>
+                    
+                    <hr>
+                    <li>보관함</li>
+                    <li>시청 기록</li>
+                    <li>내 동영상</li>
+                    <li>나중에 볼 동영상</li>
+                    <li>좋아요 표시한 동영상</li>
+                    <li>더보기</li>
+                    
+                    <hr>
+                    <h1 style="height: 17px; font-size: 17px; font-style: normal;">구독</h1>
+                    <li>asmr soupe</li>
+                    <li>sehooninseoul</li>
+                    <li>양팡 YangPang</li>
+                    <li>남순NS</li>
+                    <li>Mnet Official</li>
+                    <li>재하의 새벽 Jaeha'...</li>
+                    <li>103개 더보기</li>
 
+                    <h2 style="height: 17px; font-size: 17px; font-style: normal;"><strong>YOUTUBE 더보기</strong></h2>
+                    <li>YouTube Premium</li>
+                    <li>YouTube 영화</li>
+                    <li>게임</li>
+                    <li>실시간</li>
+                    
+                </ul>
+
+               </div>
+           </nav>
+           <article>  
+               <div id="adv">
+                <iframe width="500" height="300" src="https://www.youtube.com/embed/itjqNmqHk_Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="190" height="300" src="https://www.youtube.com/embed/vt7zzSE2Xb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="190" height="300" src="https://www.youtube.com/embed/KNwWsmR757A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <a href="https://www.youtube.com/user/SamsungMobileKorea">
+                    <img style="width:400px; height:300px;" src="{% static '광고.PNG' %}"></a>
+               </div>
+
+               <div id="video">
+                   <h4>맞춤 동영상</h4>
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/gkIxUlJ8bvs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/wRQv0vPcVoQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/bYrp2wCb1tg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/IqySLlPpEjw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><br>
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/kPjh8tnlSOs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/xDKsCkl-vAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/JxDS0ChdaAo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                   
+                   <iframe width="320" height="200" src="https://www.youtube.com/embed/hVKt_1yP30M?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+                
+               
+                </div>
+
+    
            </article>
            <aside>
                
